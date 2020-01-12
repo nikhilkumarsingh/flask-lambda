@@ -38,7 +38,7 @@ __version__ = '0.0.4'
 
 def make_environ(event):
     environ = {}
-    print('event', event)
+    print('eventssss', event)
     # key might be there but set to None
     headers = event.get('headers', {}) or {}
     for hdr_name, hdr_value in headers.items():
